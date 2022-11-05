@@ -6,4 +6,9 @@ I'll use SQLALchemy to with *ORM*
 
 connecting database 
 
-<img src="https://cloud.degoo.com/share/MN8F2PZ4YrL-m_4ySwzqFQ">
+In python shell:
+`from flaskblog import db, app`
+`app.app_context().push()`
+`db.create_all()`
+*To drop database*
+`db.drop_all()`
