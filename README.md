@@ -1,6 +1,14 @@
-**Flask user Jinja2 as template engine**
+**Flask with database.**
 
-`render_template()` -------> is used to render html templates in flask
-`url_for` ----------------> is used for url routing.
+`pip install flask-sqlalchemy`
 
-flask forms.
+I'll use SQLALchemy to with *ORM*
+
+connecting database 
+
+In python shell:
+`from flaskblog import db, app`
+`app.app_context().push()`
+`db.create_all()`
+*To drop database*
+`db.drop_all()`
